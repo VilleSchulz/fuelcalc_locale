@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox  alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FuelCalcController">
+<VBox  alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HelloController">
    <children>
       <Label fx:id="lblDistance" text="Distance" />
       <TextField fx:id="txtDistance" prefHeight="25.0" prefWidth="400.0" />

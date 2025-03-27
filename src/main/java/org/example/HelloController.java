@@ -15,7 +15,7 @@ import java.text.MessageFormat;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class FuelCalcController extends Application {
+public class HelloController extends Application {
     ResourceBundle rb;
     Locale locale;
     public Label lblDistance;
@@ -28,11 +28,10 @@ public class FuelCalcController extends Application {
     String resultString;
 
 
-    @FXML
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fuelcalc.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/hello-view.fxml"));
         Parent root = fxmlLoader.load();
         stage.setScene(new Scene(root));
         stage.show();

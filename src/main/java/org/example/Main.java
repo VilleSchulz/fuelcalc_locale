@@ -4,7 +4,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        FuelCalcController GUI = new FuelCalcController();
-        GUI.launch(FuelCalcController.class,args);
+        HelloController GUI = new HelloController();
+        GUI.launch(HelloController.class,args);
     }
 }
